@@ -1,0 +1,23 @@
+{
+  "name": "everest-nepal",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "web": "node src/server.js",
+    "worker": "node src/worker.js",
+    "test": "node --test test/*.test.js",
+    "editor:check": "node tools/editor-check/run.mjs",
+    "set-logo": "node tools/set-logo.mjs"
+  },
+  "dependencies": {
+    "@expo-google-fonts/noto-sans-devanagari": "^0.4.1",
+    "@expo-google-fonts/red-hat-display": "^0.4.1",
+    "@napi-rs/canvas": "^1.0.11",
+    "cheerio": "^1.2.0",
+    "fast-xml-parser": "^5.2.0"
+  }
+}

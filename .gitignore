@@ -1,0 +1,12 @@
+node_modules
+data
+.env
+.env.*
+backup
+tmp-editor-check
+*.log
+.DS_Store
+*.db
+*.db-wal
+*.db-shm
+*.bak
